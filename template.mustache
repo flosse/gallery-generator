@@ -1,0 +1,13 @@
+<ul class="{{ulClass}}">
+  {{#images}}
+  <li>
+    <a class="thumb" name="{{name}}" href="{{srcFileName}}" title="{{title}}">
+      <img  src="{{thumbFileName}}" alt="{{alt}}" />
+    </a>
+    <div class="caption {{alignment}}">
+    <div class="title">{{name}}</div>
+    <div class="subtitle">{{subtitle}}</div>
+    </div>
+  </li>
+  {{/images}}
+</ul>
